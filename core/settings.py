@@ -110,10 +110,15 @@ CORS_ALLOWED_ORIGINS = [
 
 CORS_ALLOW_CREDENTIALS = True
 
+# CSRF_TRUSTED_ORIGINS = [
+#     "https://frontend-psi-blush-72.vercel.app",
+#     "https://www.1worldsourcing.com",
+#     "https://1wsbackend-production.up.railway.app",  # also add your backend if needed
+# ]
 CSRF_TRUSTED_ORIGINS = [
     "https://frontend-psi-blush-72.vercel.app",
     "https://www.1worldsourcing.com",
-    "https://1wsbackend-production.up.railway.app",  # also add your backend if needed
+    "https://web-production-5081.up.railway.app",  # ← ADD this line
 ]
 
 
