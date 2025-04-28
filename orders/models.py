@@ -5,7 +5,6 @@ from supplier.models import Supplier
 from django.utils import timezone
 import uuid
 from django.shortcuts import get_object_or_404
- 
 
 
 class Order(models.Model): 
